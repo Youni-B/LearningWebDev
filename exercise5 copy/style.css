@@ -1,0 +1,91 @@
+.tweet-container {
+    display: inline-block;
+    vertical-align: top;
+    /* border: 1px solid black; */
+    padding: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(177, 177, 177);
+    border-radius: 10px;
+}
+
+.tweet-pfp {
+    width: 64px;
+    border-radius: 50%;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.tweet-textbox {
+    font-size: 1rem;
+    padding: 20px 0px;
+    width: 49ch;
+}
+
+
+.tweet-button {
+    padding: 10px 20px;
+    margin: 0px 10px;
+    background-color: rgb(29, 142, 234);
+    border-style: none;
+    border-radius: 20px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+
+    transition: background-color .2s;
+}
+
+.tweet-button:hover {
+    background-color: rgb(25, 108, 210);
+}
+
+
+
+.person-preview-container {
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 5px 5px 15px 15px;
+}
+
+.person-preview-pfp {
+    width: 100%;
+    /* height: 250px; */
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.person-preview-name {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+    margin: 0px auto;
+    padding-left: 5px;
+}
+
+.person-preview-mutuals {
+    margin-top: 0px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.person-preview-add-button {
+    background-color: rgb(36, 102, 224);
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    color: white;
+    cursor: pointer;
+}
+
+.person-preview-add-button:hover {
+    background-color: rgb(24, 86, 202);
+}
+
+.preview-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 10px;
+    row-gap: 20px;
+}

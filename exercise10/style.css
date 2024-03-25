@@ -1,0 +1,19 @@
+.test-grid {
+    display: grid;
+    grid-template-columns: 128px 128px 128px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.test-position {
+    width: 128px;
+    height: 128px;
+    background-color: bisque;
+    position: relative;
+}
+
+.notification-amount {
+    background-color: red;
+    position: absolute;
+    right: 0px;
+}

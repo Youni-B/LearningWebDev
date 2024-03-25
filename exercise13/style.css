@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.difficulty-selector {
+    background-color: gray;
+    display: inline-block;
+    padding: 10px;
+    content-visibility: auto;
+    width: 400px;
+}
+
+.btn-difficulty {
+    font-size: 1.25rem;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 100px;
+    cursor: pointer;
+    transition: 0.2s background-color;
+}
+
+.btn-difficulty:hover {
+    background-color: pink;
+}
+
+.flex-container-difficulty-stats {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.playfield {
+    background-color: antiquewhite;
+    max-height: 0px;
+    content-visibility: auto;
+    transition: 3s max-height;
+    font-size: 1.25rem;
+    width: 420px;
+    text-align: center;
+}
+
+.playfield-anim {
+    max-height: 300px;
+}
+
+#numberInput {
+    display: block;
+    height: 128px;
+    width: 128px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 64px;
+    font-size: 2.5rem;
+    border: 2px solid black;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

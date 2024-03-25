@@ -1,0 +1,36 @@
+.homebar {
+    background-color: blue;
+    height: 64px;
+    margin: 32px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 10px;
+}
+
+.nav {
+    color: white;
+    font-weight: bold;
+}
+
+.searchbar {
+    flex: 1;
+    max-width: 800px;
+    height: 35px;
+    border-radius: 100px;
+    border-style: none;
+    /* margin: 12px 0px; */
+    padding: 0px 25px;
+    margin: 0px 25px;
+}
+
+.download {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+}

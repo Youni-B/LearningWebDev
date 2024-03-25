@@ -1,0 +1,12 @@
+.container {
+    width: 400px;
+    background-color: #AAA;
+    height: 100px;
+    overflow: hidden;
+    transition: 0.6s ease-out;
+}
+
+.container:hover {
+    height: 500px;
+    background-color: #AAB;
+}

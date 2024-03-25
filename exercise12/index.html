@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <p>Developed by Youni / Joel Babineau</p>
+
+        <button class="game-icon" onclick="playGame('rock')">
+            <img src="images/noto--rock.svg" alt="Rock">
+        </button>
+        <button class="game-icon" onclick="playGame('paper')">
+            <img src="images/noto--newspaper.svg" alt="Paper">
+        </button>
+        <button class="game-icon" onclick="playGame('scissors')">
+            <img src="images/noto--scissors.svg" alt="Scissor">
+        </button>
+
+        <br>
+
+        <div class="playfield">
+            <p>You</p>
+                <img id="img-player" src="images/noto--rock.svg" alt="">
+            <p>VS</p>
+                <img id="img-computer" src="images/noto--rock.svg" alt="">
+                <p>Computer</p>
+        </div>
+
+        <div class="game-stats">
+            <h2 id="wins">Wins: 0</h2>
+            <h2 id="losses">Losses: 0</h2>
+            <h2 id="ties">Ties: 0</h2>
+        </div>
+        <button class="changing-butt" onclick="changeButton()">test</button>
+    </div>
+
+
+    <script src="test.js"></script>
+</body>
+
+</html>

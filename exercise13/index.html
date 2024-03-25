@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <p>By Youni / Joel Babineau</p>
+    <div class="flexbox">
+
+        <div class="difficulty-selector">
+            <button id="btn-easy" class="btn-difficulty">
+                Easy
+                <p>0-10</p>
+            </button>
+            <button id="btn-med" class="btn-difficulty">
+                Medium
+                <p>0-50</p>
+            </button>
+            <button id="btn-hard" class="btn-difficulty">
+                Hard
+                <p>0-100</p>
+            </button>
+            
+            <div class="flex-container-difficulty-stats">
+                <p id="diffDisplay">Difficulty: Easy</p>
+                <p id="lowHighDisplay">lowest-highest</p>
+            </div>
+        </div>
+        
+        
+        
+        <div class="playfield" id="playfield">
+            <p id="triesLeftDisplay">Number Of Tries: 5</p>
+            <!-- <label>Guess Number:</label> -->
+            <input type="text" name="numberInput" id="numberInput">
+            <!-- <button id="submit">Submit</button> -->
+            <div>
+                <p id="lastGuessDisplay">Last Guess:   </p>
+                <p id="high-low">Guess a Number</p>
+            </div>
+        </div>
+    </div>
+    <div class="winLoseContainer">
+        <h2 id="gameStatusDisplay"></h2>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>

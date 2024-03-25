@@ -1,0 +1,94 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("https://www.stardewvalley.net/wp-content/uploads/2018/12/1_1screenshot15.png"); */
+    background-color: #FAE995;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 85%, rgba(250, 233, 149, 1) 100%),
+    url("1_1screenshot15.png"); 
+
+    padding-bottom: 100px;
+    image-rendering: pixelated;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hero-nav {
+    margin-left: 64px;
+    margin-right: 64px;
+    flex: 1;
+    /* z-index: 1; */
+}
+
+.hero-nav p,
+.hero-buttons p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.hero-nav p:hover {
+    color: yellowgreen;
+}
+
+.logo {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 50%;
+}
+
+
+.img-container {
+    padding: 0px 0px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    padding: 30px 0px;
+    color: #0066CC;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.breaker {
+    border-top: 1px dashed black;
+}
+
+hr {
+    border: none;
+    height: 6px;
+    background: url(https://stardewvalley.net/wp-content/uploads/2017/12/hrspike.png);
+    margin: 30px 0px;
+}
+
+strong {
+    color: #e45e31; 
+}
